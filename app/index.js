@@ -70,6 +70,7 @@ const nightPDF = (function () {
 		_splashElement = document.getElementById('splash');
 		_splashExtraElement = document.getElementById('splash-extra');
 
+
 		//setup electron listeners
 		ipcRenderer.removeAllListeners('file-open');
 		ipcRenderer.on('file-open', (e, msg) => {

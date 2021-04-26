@@ -285,6 +285,7 @@
     <div id='header'>
       <span id="title">
       </span>
+	  <div id="refresh-button" style="border: 0px;" class="button" onclick="var iframe = document.getElementById('pdfjs'); var t = iframe.contentDocument.getElementById('viewerContainer').scrollTop; iframe.contentWindow.location.reload(); setTimeout(() => {iframe.contentDocument.getElementById('viewerContainer').scrollTop = t;}, 650);">&#8634;</div>
       <div id="menu">
         <div id="default-button" class="button active">Default</div>
         <div id="sepia-button" class="button">Sepia</div>
