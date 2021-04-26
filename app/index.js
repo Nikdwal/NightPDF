@@ -300,7 +300,7 @@ const nightPDF = (function () {
 		});
 
 		noUiSlider.create(_grayscaleSliderElement, {
-			start: 95,
+			start: 5,
 			step: 1,
 			connect: 'lower',
 			range: {
@@ -346,7 +346,7 @@ const nightPDF = (function () {
 		});
 
 		noUiSlider.create(_sepiaSliderElement, {
-			start: 55,
+			start: 25,
 			step: 1,
 			connect: 'lower',
 			range: {
